@@ -19,7 +19,7 @@ The goal is to practice **real-world troubleshooting scenarios** and document so
 
 ## 🚀 Setup Instructions
 
-**🌐Phase 1: Environment Setup**
+### **🌐Phase 1: Environment Setup**
 
 1. **Install Kubernetes CLI (`kubectl`)**<br>
     `kubectl` is the command-line tool to interact with Kubernetes clusters.
@@ -69,7 +69,7 @@ The goal is to practice **real-world troubleshooting scenarios** and document so
     helm version
     ```
 
-**🌐Phase 2: Deploy DevOps Tools on Kubernetes**
+### **🌐Phase 2: Deploy DevOps Tools on Kubernetes**
 
 1. **Deploy Jenkins on Kubernetes**<br>
     Add Jenkins Helm Repository - Helm uses repositories to fetch charts (pre-packaged Kubernetes apps).
@@ -84,7 +84,7 @@ The goal is to practice **real-world troubleshooting scenarios** and document so
     helm install jenkins jenkins/jenkins
     ```
     - This will create a Jenkins deployment, service, and related pods.
-
+    
     Check if Jenkins pods are running:
     ```bash
     kubectl get pods
