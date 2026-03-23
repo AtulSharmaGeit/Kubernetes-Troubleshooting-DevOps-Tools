@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+
+# Kubernetes (ignore local configs, keep manifests)
+*.kubeconfig
+*.log
+
+# Helm
+charts/
+tmp/
+
+# OS / Editor files
+.DS_Store
+*.swp
